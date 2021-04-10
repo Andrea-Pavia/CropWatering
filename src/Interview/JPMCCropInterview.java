@@ -140,7 +140,7 @@ public class JPMCCropInterview{
 	{
 		String options = "wc";
 		Random r = new Random(); // pass options.length;
-		int randNumb = r.nextInt(2);
+		int randNumb = r.nextInt(options.length());
 		return options.charAt(randNumb);
 	}
 }
